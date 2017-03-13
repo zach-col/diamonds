@@ -43,7 +43,7 @@ html {
 }
 body{
   background-color: black;
-  color: white;
+  color: black;
   height: 100%;
 }
 .logoHolder{
@@ -61,18 +61,4 @@ body{
 }
 .navButton{
   margin-top: 13px;
-}
-#headerImg{
-  width: 100%;
-  height: 400px;
-}
-#headerContainer {
-  position: relative;
-}
-#headerInfo {
-  position: absolute;
-  left: 0;
-  top: 20%;
-  width: 100%;
-  text-align: center;
 }
