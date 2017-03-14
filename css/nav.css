@@ -45,6 +45,8 @@ body{
   background-color: black;
   color: black;
   height: 100%;
+  font-family: 'Droid Sans', sans-serif;
+  overflow-x: hidden;
 }
 .logoHolder{
   text-align: center;
