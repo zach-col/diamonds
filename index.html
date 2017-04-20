@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="home">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,7 @@
   <!-- awesome font -->
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 </head>
-<body>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- navigation -->
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -99,12 +98,20 @@
     </div>
   </div>
 </div>
+<div class="up">
+  <a href="#home">
+    <img src="img/up.png" class="upImg"/>
+  </a>
+</div>
+
 <!-- Jquery Version 3.1.1 -->
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <!-- Bootstrap -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- Navigation -->
 <script type="text/javascript" src="js/nav.js"></script>
+<!-- smoothScroll -->
+<script type="text/javascript" src="js/smoothScroll.js"></script>
 <!-- Ripples -->
 <script type="text/javascript" src="js/jquery.ripples.js"></script>
 <!-- Custom Ripples -->

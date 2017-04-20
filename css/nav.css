@@ -64,3 +64,19 @@ body{
 .navButton{
   margin-top: 13px;
 }
+.upImg {
+  height: 50px;
+  width: 50px;
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.up {
+  position: fixed;
+  border-radius: 50%;
+  background-color: white;
+  right: 10px;
+  bottom: 10px;
+}
